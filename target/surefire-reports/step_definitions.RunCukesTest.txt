@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: step_definitions.RunCukesTest
+-------------------------------------------------------------------------------
+Tests run: 18, Failures: 2, Errors: 0, Skipped: 2, Time elapsed: 51.543 sec <<< FAILURE!
+And User find Item total: "$7.99", Tax: "$0.64", and Total: "$8.63"(Scenario: User purchases 2 items until the product order is successful)  Time elapsed: 0.007 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[]$7.99> but was:<[Item total: ]$7.99>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at step_definitions.PurchaseSteps.getTotalItem(PurchaseSteps.java:119)
+	at ✽.And User find Item total: "$7.99", Tax: "$0.64", and Total: "$8.63"(features/CheckOut.feature:20)
+
+Scenario: User purchases 2 items until the product order is successful  Time elapsed: 0.007 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[]$7.99> but was:<[Item total: ]$7.99>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at step_definitions.PurchaseSteps.getTotalItem(PurchaseSteps.java:119)
+	at ✽.And User find Item total: "$7.99", Tax: "$0.64", and Total: "$8.63"(features/CheckOut.feature:20)
+

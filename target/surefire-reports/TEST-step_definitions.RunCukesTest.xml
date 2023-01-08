@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="18" failures="2" name="step_definitions.RunCukesTest" time="0.036" errors="0" skipped="2">
+  <properties>
+    <property name="idea.version" value="2022.3.1"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.202-b08"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/researchsynergyfoundation/IdeaProjects/sauceDemo"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="ID"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/researchsynergyfoundation/IdeaProjects/sauceDemo"/>
+    <property name="java.runtime.version" value="1.8.0_202-b08"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/7v/sz1yyxp54bq6cmqvrxvwzhph0000gn/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="maven.ext.class.path" value="/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/researchsynergyfoundation/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="jansi.passthrough" value="true"/>
+    <property name="maven.conf" value="/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.16"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/researchsynergyfoundation"/>
+    <property name="user.timezone" value="Asia/Jakarta"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="researchsynergyfoundation"/>
+    <property name="java.class.path" value="/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3/boot/plexus-classworlds.license:/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3/boot/plexus-classworlds-2.6.0.jar:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2022.3.1 test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_202"/>
+    <property name="java.ext.dirs" value="/Users/researchsynergyfoundation/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="Scenario: User purchases 2 items until the product order is successful" name="Given User open the website sauce demo" time="0.004"/>
+  <testcase classname="Scenario: User purchases 2 items until the product order is successful" name="When User input &quot;standard_user&quot; as userName and input &quot;secret_sauce&quot; as password" time="0"/>
+  <testcase classname="Scenario: User purchases 2 items until the product order is successful" name="Then User already on PRODUCTS page" time="0"/>
+  <testcase classname="Scenario: User purchases 2 items until the product order is successful" name="And User sort product list by name Z to A" time="0.001"/>
+  <testcase classname="Scenario: User purchases 2 items until the product order is successful" name="And User click Item1" time="0"/>
+  <testcase classname="Scenario: User purchases 2 items until the product order is successful" name="And User click Item2" time="0"/>
+  <testcase classname="Scenario: User purchases 2 items until the product order is successful" name="And User click Cart button" time="0"/>
+  <testcase classname="Scenario: User purchases 2 items until the product order is successful" name="Then User verify all item name in Cart page" time="0"/>
+  <testcase classname="Scenario: User purchases 2 items until the product order is successful" name="And Remove Test.allTheThings() T-Shirt (Red) from product list" time="0"/>
+  <testcase classname="Scenario: User purchases 2 items until the product order is successful" name="And User click checkout button" time="0"/>
+  <testcase classname="Scenario: User purchases 2 items until the product order is successful" name="Given User already on CHECKOUT: YOUR INFORMATION" time="0.001"/>
+  <testcase classname="Scenario: User purchases 2 items until the product order is successful" name="When User input &quot;diah&quot; as First Name, &quot;R&quot; as Last Name, and &quot;1188&quot; as Zip/Postal Code" time="0"/>
+  <testcase classname="Scenario: User purchases 2 items until the product order is successful" name="And User click Continue Button" time="0"/>
+  <testcase classname="Scenario: User purchases 2 items until the product order is successful" name="Then User already on CHECKOUT: OVERVIEW page" time="0"/>
+  <testcase classname="Scenario: User purchases 2 items until the product order is successful" name="And User find Item total: &quot;$7.99&quot;, Tax: &quot;$0.64&quot;, and Total: &quot;$8.63&quot;" time="0.007">
+    <failure message="expected:&lt;[]$7.99&gt; but was:&lt;[Item total: ]$7.99&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;[]$7.99&gt; but was:&lt;[Item total: ]$7.99&gt;
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at step_definitions.PurchaseSteps.getTotalItem(PurchaseSteps.java:119)
+	at ✽.And User find Item total: &quot;$7.99&quot;, Tax: &quot;$0.64&quot;, and Total: &quot;$8.63&quot;(features/CheckOut.feature:20)
+</failure>
+  </testcase>
+  <testcase classname="Scenario: User purchases 2 items until the product order is successful" name="Scenario: User purchases 2 items until the product order is successful" time="0.007">
+    <failure message="expected:&lt;[]$7.99&gt; but was:&lt;[Item total: ]$7.99&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;[]$7.99&gt; but was:&lt;[Item total: ]$7.99&gt;
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at step_definitions.PurchaseSteps.getTotalItem(PurchaseSteps.java:119)
+	at ✽.And User find Item total: &quot;$7.99&quot;, Tax: &quot;$0.64&quot;, and Total: &quot;$8.63&quot;(features/CheckOut.feature:20)
+</failure>
+  </testcase>
+  <testcase classname="Scenario: User purchases 2 items until the product order is successful" name="And User click Finish" time="0.008">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: User purchases 2 items until the product order is successful" name="Then User find text THANK YOU FOR YOUR ORDER after complete checkout process" time="0.008">
+    <skipped/>
+  </testcase>
+</testsuite>
